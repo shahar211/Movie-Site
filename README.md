@@ -1,6 +1,6 @@
 # Movie-Site
 Movie Site
-![](Images/Images/Home-Page.jpeg)
+![](Images/Home-Page.jpeg)
 
 ![](Images/Home-page2.jpeg)
 
