@@ -8,7 +8,7 @@ const encrypt = require('mongoose-encryption');
 
 
 const url= "https://api.themoviedb.org/3";
-const key= "api_key=4535b7bb2cd4d8959efe68747ebb2366";
+const key= "api_key=";
 const upcoming = "/movie/upcoming?";
 const nowPlaying = "/movie/now_playing?";
 const searchMovie = "/search/movie?";
@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
   password: String
 });
 
-const secret = "jfCuZHhfAGtTkn1RaPYr";
+const secret = "";
 userSchema.plugin(encrypt, { secret: secret,encryptedFields:["password"] });
 
 
